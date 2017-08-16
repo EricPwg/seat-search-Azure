@@ -1,0 +1,125 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+
+<h1 style="text-align: center; color: rgb(213, 91, 62);">&#20491;&#20154;&#36039;&#35338;<br>
+</h1>
+<div class="container">
+
+<div class="menus">
+
+<table style="text-align: left; width: 400px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2" class="table">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; ">&#24115;&#34399;</td>
+      <td style="vertical-align: top; text-align: center; ">{{username}}</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center; ">&#21097;&#39192;&#40670;&#25976;</td>
+      <td style="vertical-align: top; text-align: center; ">{{point}}</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center; ">&#38928;&#32004;&#26410;&#21040;&#27425;&#25976;</td>
+      <td style="vertical-align: top; text-align: center; ">{{rehearsal_time}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<br>
+
+<h1 style="text-align: center; color: rgb(213, 91, 62);">&#38928;&#32004;&#36039;&#35338;</h1>
+
+<h3 style="text-align: center; color: rgb(213, 91, 62);">&#39184;&#24307;</h3>
+
+<div style="text-align: center;">
+{% if if_restaurant %}
+<table style="text-align: left; width: 400px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#24215;&#21517;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#27155;&#23652;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#30446;&#21069;&#21483;&#34399;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#25105;&#30340;&#34399;&#30908;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#21462;&#28040;</td>
+    </tr>
+{% for r in restaurant_list %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.0}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.1}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.2}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.3}}</td>
+    {% if r.5 %}
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);"><a href="{{r.4}}", class="btn btn-primary btn-large">&#21462;&#28040; &raquo;</a></td>
+    {% else %}
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#20197;&#21483;&#34399;&#65292;&#35531;&#30433;&#36895;&#21069;&#24448;</td>
+    {% endif %}
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p><i>&#28961;&#38928;&#32004;&#36039;&#26009;</i></p>
+{% endif %}
+</div>
+
+<br>
+
+<h3 style="text-align: center; color: rgb(213, 91, 62);">&#32654;&#39135;&#34903;&#24231;&#20301;&#21312;</h3>
+
+<div style="text-align: center;">
+{% if if_seat %}
+<table style="text-align: left; width: 400px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2" class="table">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#24231;&#20301;&#32232;&#34399;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#38928;&#32004;&#26178;&#38291;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#21097;&#39192;&#26178;&#38291;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#24231;&#20301;&#35299;&#37782; </td>
+    </tr>
+
+{% for s in seat_list %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.0}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.2}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.3}}&#31186;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);"><a href="{{s.1}}", class="btn btn-primary btn-large">&#35299;&#37782; &raquo;</a><br></td>
+    </tr>
+{% endfor %}
+
+  </tbody>
+</table>
+{% else %}
+<p><i>&#28961;&#38928;&#32004;&#36039;&#26009;</i></p>
+{% endif %}
+</div>
+
+<h3 style="text-align: center; color: rgb(213, 91, 62);">&#38928;&#32004;&#36926;&#26178;&#32000;&#37636;</h3>
+<div style="text-align: center;">
+
+{% if if_rehearsal %}
+<table style="text-align: left; width: 400px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2" class="table">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#38928;&#32004;&#26178;&#38291;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#38928;&#32004;&#39184;&#24307; </td>
+    </tr>
+{% for r in rehearsal_list %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.date}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.restaurant}}</td>
+    </tr>
+{% endfor %}
+{% else %}
+<p><i>&#28961;&#32000;&#37636;</i></p>
+{% endif %}
+</tbody>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+{% endblock %}
+

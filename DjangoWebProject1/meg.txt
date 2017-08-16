@@ -1,0 +1,509 @@
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+{u'recipient': {u'id': u'm9e92bchj03eecia3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ekl9cl26h3i8gmh86'}, u'timestamp': u'2017-06-02T20:12:37.081Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:12:37+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'92ij0m8k0a1imnaf9'}
+meg
+{u'recipient': {u'id': u'm9e92bchj03eecia3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ekl9cl26h3i8gmh86'}, u'timestamp': u'2017-06-02T20:12:37.055Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:12:37+08:00', u'membersAdded': [{u'id': u'm9e92bchj03eecia3', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'87j14eelhgei47g56'}
+meg
+{u'recipient': {u'id': u'm9e92bchj03eecia3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ekl9cl26h3i8gmh86'}, u'locale': u'zh-TW', u'text': u'1+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:12:47+08:00', u'id': u'h2ehgfi77e6ci8fdc', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:12:47.941Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496434355215.2817020576673237.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/ekl9cl26h3i8gmh86/activities/h2ehgfi77e6ci8fdc
+{u'id': u'm9e92bchj03eecia3', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'1n9c26laicneamcbjc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'g7hmdj0f2624cj4gc'}, u'timestamp': u'2017-06-02T20:18:24.513Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:18:24+08:00', u'membersAdded': [{u'id': u'1n9c26laicneamcbjc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'4e7ejkgf63j0nb79i'}
+meg
+{u'recipient': {u'id': u'1n9c26laicneamcbjc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'g7hmdj0f2624cj4gc'}, u'timestamp': u'2017-06-02T20:18:24.521Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:18:24+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'bg4mjn7elf8hj659mc'}
+meg
+{u'recipient': {u'id': u'1n9c26laicneamcbjc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'g7hmdj0f2624cj4gc'}, u'locale': u'zh-TW', u'text': u'7+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:18:29+08:00', u'id': u'4531ah2k0nhee87bac', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:18:29.924Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496434704582.0708019163552307.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/g7hmdj0f2624cj4gc/activities/4531ah2k0nhee87bac
+{u'id': u'1n9c26laicneamcbjc', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'adl1lij74jc7ngkh6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'li1h8dcde76f2fgl'}, u'timestamp': u'2017-06-02T20:39:51.126Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:39:51+08:00', u'membersAdded': [{u'id': u'adl1lij74jc7ngkh6', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'kdi6g0kkkd78k8ekf'}
+meg
+{u'recipient': {u'id': u'adl1lij74jc7ngkh6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'li1h8dcde76f2fgl'}, u'timestamp': u'2017-06-02T20:39:51.132Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:39:51+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'ma9efhb85192c2bli'}
+meg
+{u'recipient': {u'id': u'adl1lij74jc7ngkh6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'li1h8dcde76f2fgl'}, u'locale': u'zh-TW', u'text': u'9+6', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:39:55+08:00', u'id': u'6jjf0k7ac60j77eml', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:39:55.427Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496435991164.27457817452061684.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/li1h8dcde76f2fgl/activities/6jjf0k7ac60j77eml
+{u'id': u'adl1lij74jc7ngkh6', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'j8damda5mikg74ejc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'hbbdi3dlk7n9gm7f9'}, u'timestamp': u'2017-06-02T20:42:06.648Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:42:06+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'00le675jcgjhf2364c'}
+meg
+{u'recipient': {u'id': u'j8damda5mikg74ejc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'hbbdi3dlk7n9gm7f9'}, u'timestamp': u'2017-06-02T20:42:06.642Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:42:06+08:00', u'membersAdded': [{u'id': u'j8damda5mikg74ejc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'05beidm1d4h5d6ebf'}
+meg
+{u'recipient': {u'id': u'j8damda5mikg74ejc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'hbbdi3dlk7n9gm7f9'}, u'locale': u'zh-TW', u'text': u'9+6', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:42:10+08:00', u'id': u'ke4a57e6nj5edhk1c', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:42:10.674Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496436126676.10840615777174833.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/hbbdi3dlk7n9gm7f9/activities/ke4a57e6nj5edhk1c
+{u'id': u'j8damda5mikg74ejc', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'b5a957e62l01e6ed7c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'nmibk2elf82chf743'}, u'timestamp': u'2017-06-02T20:43:12.348Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:43:12+08:00', u'membersAdded': [{u'id': u'b5a957e62l01e6ed7c', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'9ffig4a3g7e10ac6i'}
+meg
+{u'recipient': {u'id': u'b5a957e62l01e6ed7c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'nmibk2elf82chf743'}, u'timestamp': u'2017-06-02T20:43:12.357Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:43:12+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'ba05684gjk69b38h6'}
+meg
+{u'recipient': {u'id': u'b5a957e62l01e6ed7c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'nmibk2elf82chf743'}, u'locale': u'zh-TW', u'text': u'6+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:43:15+08:00', u'id': u'7k02led28g2dbf0k6', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:43:15.083Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496436192388.44795192353429547.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/nmibk2elf82chf743/activities/7k02led28g2dbf0k6
+{u'id': u'b5a957e62l01e6ed7c', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a6cf5950dmm0k6fjgc'}, u'timestamp': u'2017-06-02T20:44:54.443Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:44:54+08:00', u'membersAdded': [{u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'03a8d44aabej88jm3'}
+meg
+{u'recipient': {u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a6cf5950dmm0k6fjgc'}, u'timestamp': u'2017-06-02T20:44:54.449Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:44:54+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'd98l5nem8ik5mc404c'}
+meg
+{u'recipient': {u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a6cf5950dmm0k6fjgc'}, u'locale': u'zh-TW', u'text': u'6+5', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:44:57+08:00', u'id': u'5fdad15annkf6ll0dc', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:44:57.018Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496436294477.40541542190999547.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/a6cf5950dmm0k6fjgc/activities/5fdad15annkf6ll0dc
+{u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'locale': u'zh-TW', u'text': u'9+8', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:45:22+08:00', u'id': u'bgccjn3hc3al9jh86', u'conversation': {u'id': u'a6cf5950dmm0k6fjgc'}, u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:45:22.699Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496436294477.40541542190999547.2'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/a6cf5950dmm0k6fjgc/activities/bgccjn3hc3al9jh86
+{u'id': u'lhki4b5cdl66ef', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'555hf4hjhe27b1dbac', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'6ej36gi64kie9ejkac'}, u'timestamp': u'2017-06-02T20:49:11.176Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:49:11+08:00', u'membersAdded': [{u'id': u'555hf4hjhe27b1dbac', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'ief722jlaglknk286'}
+meg
+{u'recipient': {u'id': u'555hf4hjhe27b1dbac', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'6ej36gi64kie9ejkac'}, u'timestamp': u'2017-06-02T20:49:11.182Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:49:11+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:58471', u'type': u'conversationUpdate', u'id': u'322db1fejilcf47dgc'}
+meg
+{u'recipient': {u'id': u'555hf4hjhe27b1dbac', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'6ej36gi64kie9ejkac'}, u'locale': u'zh-TW', u'text': u'9+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T04:49:14+08:00', u'id': u'mekj6c3ie1gig65f', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:58471', u'timestamp': u'2017-06-02T20:49:14.252Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496436551215.8040275656082987.0'}}
+before text
+after text
+before send
+http://127.0.0.1:58471/v3/conversations/6ej36gi64kie9ejkac/activities/mekj6c3ie1gig65f
+{u'id': u'555hf4hjhe27b1dbac', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9d0348hhejia977h1c'}, u'timestamp': u'2017-06-03T07:34:06.168Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T15:34:06+08:00', u'membersAdded': [{u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'i96b469jcma4m0299'}
+meg
+{u'recipient': {u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9d0348hhejia977h1c'}, u'timestamp': u'2017-06-03T07:34:06.180Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T15:34:06+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'ej31kklh88li0a4ldc'}
+meg
+{u'recipient': {u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9d0348hhejia977h1c'}, u'locale': u'zh-TW', u'text': u'789', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T15:34:15+08:00', u'id': u'cbcn1f9jf718c4ahf', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:61461', u'timestamp': u'2017-06-03T07:34:15.431Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496475246238.3823987447311423.0'}}
+before text
+after text
+before send
+http://127.0.0.1:61461/v3/conversations/9d0348hhejia977h1c/activities/cbcn1f9jf718c4ahf
+{u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'locale': u'zh-TW', u'text': u'7+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T15:34:26+08:00', u'id': u'gn4g9j10e1lkednci', u'conversation': {u'id': u'9d0348hhejia977h1c'}, u'serviceUrl': u'http://127.0.0.1:61461', u'timestamp': u'2017-06-03T07:34:26.904Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496475246238.3823987447311423.2'}}
+before text
+after text
+before send
+http://127.0.0.1:61461/v3/conversations/9d0348hhejia977h1c/activities/gn4g9j10e1lkednci
+{u'id': u'm65g1ld0ea964kd0i', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'm2m486dc3ede5h8ci', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a60142d787mgkg8bf'}, u'timestamp': u'2017-06-03T08:21:23.899Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:21:23+08:00', u'membersAdded': [{u'id': u'm2m486dc3ede5h8ci', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'ha4m1ffdimnmdm23i'}
+meg
+{u'recipient': {u'id': u'm2m486dc3ede5h8ci', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a60142d787mgkg8bf'}, u'timestamp': u'2017-06-03T08:21:23.905Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:21:23+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'c5m6j11g8ge2n407l'}
+meg
+{u'recipient': {u'id': u'm2m486dc3ede5h8ci', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a60142d787mgkg8bf'}, u'locale': u'zh-TW', u'text': u'2+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:21:30+08:00', u'id': u'dh9m2hn70il26mii', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:61461', u'timestamp': u'2017-06-03T08:21:30.275Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496478083929.9715219997406477.0'}}
+before text
+after text
+before send
+http://127.0.0.1:61461/v3/conversations/a60142d787mgkg8bf/activities/dh9m2hn70il26mii
+{u'id': u'm2m486dc3ede5h8ci', u'name': u'Bot'}
+after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'6ic2j4nb2lhn59f2jc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a75mhf8adn521h573'}, u'timestamp': u'2017-06-03T08:43:22.705Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:43:22+08:00', u'membersAdded': [{u'id': u'6ic2j4nb2lhn59f2jc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'5h8fcgkdni8l55bd7c'}
+meg
+{u'recipient': {u'id': u'6ic2j4nb2lhn59f2jc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a75mhf8adn521h573'}, u'timestamp': u'2017-06-03T08:43:22.711Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:43:22+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:61461', u'type': u'conversationUpdate', u'id': u'mlihk78482gg998ac'}
+meg
+{u'recipient': {u'id': u'6ic2j4nb2lhn59f2jc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'a75mhf8adn521h573'}, u'locale': u'zh-TW', u'text': u'4+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-03T16:43:29+08:00', u'id': u'30b51llla6a0ij756', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:61461', u'timestamp': u'2017-06-03T08:43:29.513Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496479402733.3060744675673974.0'}}
+before text
+after text
+before send
+http://127.0.0.1:61461/v3/conversations/a75mhf8adn521h573/activities/30b51llla6a0ij756
+{u'id': u'6ic2j4nb2lhn59f2jc', u'name': u'Bot'}
+{"replyToId": "30b51llla6a0ij756", "from": {"id": "6ic2j4nb2lhn59f2jc", "name": "Bot"}, "text": "13.0", "conversation": {"id": "a75mhf8adn521h573"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+after send1
+meg
+{u'recipient': {u'id': u'da8773kdi604kmeb1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'33e9b3eb3lcahl586'}, u'timestamp': u'2017-06-03T16:55:52.019Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T00:55:52+08:00', u'membersAdded': [{u'id': u'da8773kdi604kmeb1c', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'hi1gjm5jc03c8g9i'}
+meg
+{u'recipient': {u'id': u'da8773kdi604kmeb1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'33e9b3eb3lcahl586'}, u'timestamp': u'2017-06-03T16:55:52.025Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T00:55:52+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'f7nbm5ddmn0bcc1ejc'}
+meg
+{u'recipient': {u'id': u'da8773kdi604kmeb1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'33e9b3eb3lcahl586'}, u'locale': u'zh-TW', u'text': u'6+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T00:55:55+08:00', u'id': u'7lm2kn172efaka8k1c', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T16:55:55.994Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496508952050.9786579888525297.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/33e9b3eb3lcahl586/activities/7lm2kn172efaka8k1c
+{u'id': u'da8773kdi604kmeb1c', u'name': u'Bot'}
+{"replyToId": "7lm2kn172efaka8k1c", "from": {"id": "da8773kdi604kmeb1c", "name": "Bot"}, "text": "15.0", "conversation": {"id": "33e9b3eb3lcahl586"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5kkal4c7gnhbea3idc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'c9ll03nl9ak2hn2ggc'}, u'timestamp': u'2017-06-03T17:04:40.686Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:04:40+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'h0h5b0jc412bgmjl'}
+meg
+{u'recipient': {u'id': u'5kkal4c7gnhbea3idc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'c9ll03nl9ak2hn2ggc'}, u'timestamp': u'2017-06-03T17:04:40.680Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:04:40+08:00', u'membersAdded': [{u'id': u'5kkal4c7gnhbea3idc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'27n3fghkjjlf95li'}
+meg
+{u'recipient': {u'id': u'5kkal4c7gnhbea3idc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'c9ll03nl9ak2hn2ggc'}, u'locale': u'zh-TW', u'text': u'6+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:04:53+08:00', u'id': u'dg4dd3b0d644d8926', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:04:53.884Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496509480719.8024048757411797.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/c9ll03nl9ak2hn2ggc/activities/dg4dd3b0d644d8926
+{u'id': u'5kkal4c7gnhbea3idc', u'name': u'Bot'}
+{"replyToId": "dg4dd3b0d644d8926", "from": {"id": "5kkal4c7gnhbea3idc", "name": "Bot"}, "text": "15.0", "conversation": {"id": "c9ll03nl9ak2hn2ggc"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+meg
+meg
+{u'recipient': {u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9il739ag4731f2ifi'}, u'timestamp': u'2017-06-03T17:08:29.537Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:08:29+08:00', u'membersAdded': [{u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'ek6iih0ne143ii404c'}
+meg
+{u'recipient': {u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9il739ag4731f2ifi'}, u'timestamp': u'2017-06-03T17:08:29.544Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:08:29+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'e9529gg52k9d60hm7c'}
+meg
+{u'recipient': {u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9il739ag4731f2ifi'}, u'locale': u'zh-TW', u'text': u'6+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:10:49+08:00', u'id': u'353ekj640d4cembh6', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:10:49.232Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496509709571.6348132076371527.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/9il739ag4731f2ifi/activities/353ekj640d4cembh6
+{u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}
+{"replyToId": "353ekj640d4cembh6", "from": {"id": "6fb81ci371dfk1b3i", "name": "Bot"}, "text": "15.0", "conversation": {"id": "9il739ag4731f2ifi"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'locale': u'zh-TW', u'text': u'3+6', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:11:10+08:00', u'id': u'i7mhdk72f4j9nn09', u'conversation': {u'id': u'9il739ag4731f2ifi'}, u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:11:10.514Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496509709571.6348132076371527.2'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/9il739ag4731f2ifi/activities/i7mhdk72f4j9nn09
+{u'id': u'6fb81ci371dfk1b3i', u'name': u'Bot'}
+{"replyToId": "i7mhdk72f4j9nn09", "from": {"id": "6fb81ci371dfk1b3i", "name": "Bot"}, "text": "9.0", "conversation": {"id": "9il739ag4731f2ifi"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+meg
+{u'recipient': {u'id': u'lgc4ikn86id65cik6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'f6eb5850mjgfmlfef'}, u'timestamp': u'2017-06-03T17:24:22.608Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:24:22+08:00', u'membersAdded': [{u'id': u'lgc4ikn86id65cik6', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'0dinf1mmkeih2jehjc'}
+meg
+{u'recipient': {u'id': u'lgc4ikn86id65cik6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'f6eb5850mjgfmlfef'}, u'timestamp': u'2017-06-03T17:24:22.614Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:24:22+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'l6j30a0i93gl9dh1c'}
+meg
+{u'recipient': {u'id': u'lgc4ikn86id65cik6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'f6eb5850mjgfmlfef'}, u'locale': u'zh-TW', u'text': u'6+7', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:24:34+08:00', u'id': u'n937g3m2agk0i7cnf', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:24:34.748Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496510662633.7134161390425644.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/f6eb5850mjgfmlfef/activities/n937g3m2agk0i7cnf
+{u'id': u'lgc4ikn86id65cik6', u'name': u'Bot'}
+{"replyToId": "n937g3m2agk0i7cnf", "from": {"id": "lgc4ikn86id65cik6", "name": "Bot"}, "text": "13.0", "conversation": {"id": "f6eb5850mjgfmlfef"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'fi95bm4la5m954eg3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'dnbgjf847hh1nnic9'}, u'timestamp': u'2017-06-03T17:27:57.544Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:27:57+08:00', u'membersAdded': [{u'id': u'fi95bm4la5m954eg3', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'9em8470h1lckh313'}
+meg
+{u'recipient': {u'id': u'fi95bm4la5m954eg3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'dnbgjf847hh1nnic9'}, u'timestamp': u'2017-06-03T17:27:57.550Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:27:57+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'i728h0nee67c14j0i'}
+meg
+{u'recipient': {u'id': u'fi95bm4la5m954eg3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'dnbgjf847hh1nnic9'}, u'locale': u'zh-TW', u'text': u'7+5', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:28:03+08:00', u'id': u'i0g091jan6be4gb3i', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:28:03.955Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496510877579.006355542855276619.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/dnbgjf847hh1nnic9/activities/i0g091jan6be4gb3i
+{u'id': u'fi95bm4la5m954eg3', u'name': u'Bot'}
+{"replyToId": "i0g091jan6be4gb3i", "from": {"id": "fi95bm4la5m954eg3", "name": "Bot"}, "text": "12.0", "conversation": {"id": "dnbgjf847hh1nnic9"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'c9bi6h3dlhnjgl96i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ebmj31jeak822gj0i'}, u'timestamp': u'2017-06-03T17:53:01.928Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:53:01+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'29m3a2n2ganemj4n6'}
+meg
+{u'recipient': {u'id': u'c9bi6h3dlhnjgl96i', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ebmj31jeak822gj0i'}, u'timestamp': u'2017-06-03T17:53:01.921Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:53:01+08:00', u'membersAdded': [{u'id': u'c9bi6h3dlhnjgl96i', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'09ch8labi2di6f9nf'}
+meg
+{u'recipient': {u'id': u'95daggdllk89fjc1gc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9bfbe3h2menae685ac'}, u'timestamp': u'2017-06-03T17:55:23.189Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:55:23+08:00', u'membersAdded': [{u'id': u'95daggdllk89fjc1gc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'51h09cda6g0bcbaa7c'}
+meg
+{u'recipient': {u'id': u'95daggdllk89fjc1gc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9bfbe3h2menae685ac'}, u'timestamp': u'2017-06-03T17:55:23.195Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:55:23+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'fahcmk6bfh6nn728jc'}
+meg
+{u'recipient': {u'id': u'chm9hg85ah30ffjbac', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'506m9kn3mkk71jm17c'}, u'timestamp': u'2017-06-03T17:56:44.442Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:56:44+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'2fn58bn06clb9fbg3'}
+meg
+{u'recipient': {u'id': u'chm9hg85ah30ffjbac', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'506m9kn3mkk71jm17c'}, u'timestamp': u'2017-06-03T17:56:44.437Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:56:44+08:00', u'membersAdded': [{u'id': u'chm9hg85ah30ffjbac', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'f3f2g2c44fina4a94c'}
+meg
+{u'recipient': {u'id': u'8j6j606e8e73lm2c4c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'e4g5hbkjh3176lf2jc'}, u'timestamp': u'2017-06-03T17:57:43.695Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:57:43+08:00', u'membersAdded': [{u'id': u'8j6j606e8e73lm2c4c', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'n7n3l57h4i619a5ml'}
+meg
+{u'recipient': {u'id': u'8j6j606e8e73lm2c4c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'e4g5hbkjh3176lf2jc'}, u'timestamp': u'2017-06-03T17:57:43.701Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:57:43+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'l6bm197i59jn8364c'}
+meg
+{u'recipient': {u'id': u'8j6j606e8e73lm2c4c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'e4g5hbkjh3176lf2jc'}, u'locale': u'zh-TW', u'text': u'5+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T01:58:12+08:00', u'id': u'93fi1572c5inm6bml', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T17:58:12.067Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496512663719.9197342751323361.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/e4g5hbkjh3176lf2jc/activities/93fi1572c5inm6bml
+{u'id': u'8j6j606e8e73lm2c4c', u'name': u'Bot'}
+{"replyToId": "93fi1572c5inm6bml", "from": {"id": "8j6j606e8e73lm2c4c", "name": "Bot"}, "text": "14.0", "conversation": {"id": "e4g5hbkjh3176lf2jc"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'02bm305h7fl1j2bi9', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'881gcj6aagfm1261gc'}, u'timestamp': u'2017-06-03T18:00:06.277Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:00:06+08:00', u'membersAdded': [{u'id': u'02bm305h7fl1j2bi9', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'0e9mj7h86l8b0m3idc'}
+meg
+{u'recipient': {u'id': u'02bm305h7fl1j2bi9', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'881gcj6aagfm1261gc'}, u'timestamp': u'2017-06-03T18:00:06.285Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:00:06+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'5bbg5bkg1lg378mj7c'}
+meg
+{u'recipient': {u'id': u'd9h5e7a1n4km25c9dc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'90f8bf8n4004769k6'}, u'timestamp': u'2017-06-03T18:03:50.918Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:03:50+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'196j5mghmhef9h899'}
+meg
+{u'recipient': {u'id': u'd9h5e7a1n4km25c9dc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'90f8bf8n4004769k6'}, u'timestamp': u'2017-06-03T18:03:50.911Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:03:50+08:00', u'membersAdded': [{u'id': u'd9h5e7a1n4km25c9dc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'0b6l49h45j11g8ij3'}
+meg
+{u'recipient': {u'id': u'02321k06m4j7he7d3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ilabnj8a0dma0n1c'}, u'timestamp': u'2017-06-03T18:06:16.615Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:06:16+08:00', u'membersAdded': [{u'id': u'02321k06m4j7he7d3', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'lgnh3be62351n08dl'}
+meg
+{u'recipient': {u'id': u'02321k06m4j7he7d3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ilabnj8a0dma0n1c'}, u'timestamp': u'2017-06-03T18:06:16.621Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:06:16+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'i2cfn93l42kfh7i4c'}
+meg
+{u'recipient': {u'id': u'02321k06m4j7he7d3', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'ilabnj8a0dma0n1c'}, u'locale': u'zh-TW', u'text': u'6+9', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:08:52+08:00', u'id': u'b72j976dbcnb49k7gc', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T18:08:52.260Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496513176648.1252261686472913.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/ilabnj8a0dma0n1c/activities/b72j976dbcnb49k7gc
+{u'id': u'02321k06m4j7he7d3', u'name': u'Bot'}
+{"replyToId": "b72j976dbcnb49k7gc", "from": {"id": "02321k06m4j7he7d3", "name": "Bot"}, "text": "15.0", "conversation": {"id": "ilabnj8a0dma0n1c"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'4gf9njl84d2j5j339', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'f70ag36960hb2a5b1c'}, u'timestamp': u'2017-06-03T18:27:10.526Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:27:10+08:00', u'membersAdded': [{u'id': u'4gf9njl84d2j5j339', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'8jm56e3cmkc8fn3ef'}
+meg
+{u'recipient': {u'id': u'4gf9njl84d2j5j339', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'f70ag36960hb2a5b1c'}, u'timestamp': u'2017-06-03T18:27:10.532Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:27:10+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'4c83d22lh7m4amkm7c'}
+meg
+{u'recipient': {u'id': u'kdgd431ikf60k818f', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'184j872ffj6jiihh6'}, u'timestamp': u'2017-06-03T18:31:40.948Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:31:40+08:00', u'membersAdded': [{u'id': u'kdgd431ikf60k818f', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'53mfghcjlnfjfnnac'}
+meg
+{u'recipient': {u'id': u'kdgd431ikf60k818f', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'184j872ffj6jiihh6'}, u'timestamp': u'2017-06-03T18:31:40.954Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:31:40+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'ad5ng385jb094bbnac'}
+meg
+{u'recipient': {u'id': u'80egfa1hccgdib1dgc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'al8b130ci1h8004f9'}, u'timestamp': u'2017-06-03T18:34:30.198Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:34:30+08:00', u'membersAdded': [{u'id': u'80egfa1hccgdib1dgc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'lhd41a2cjjj8ei3c9'}
+meg
+{u'recipient': {u'id': u'80egfa1hccgdib1dgc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'al8b130ci1h8004f9'}, u'timestamp': u'2017-06-03T18:34:30.204Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:34:30+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'384ekhdlja8img4ejc'}
+meg
+{u'recipient': {u'id': u'g78bj94fi7e8e70b6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'45j16d5k2ggkg18i9'}, u'timestamp': u'2017-06-03T18:35:19.821Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:35:19+08:00', u'membersAdded': [{u'id': u'g78bj94fi7e8e70b6', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'imlkbj7g2ek13mk09'}
+meg
+{u'recipient': {u'id': u'g78bj94fi7e8e70b6', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'45j16d5k2ggkg18i9'}, u'timestamp': u'2017-06-03T18:35:19.827Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:35:19+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'6h8mj3j6bk629j6j3'}
+meg
+{u'recipient': {u'id': u'57hfde98hce2mb03mc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'i1hinkedf7ihc26k6'}, u'timestamp': u'2017-06-03T18:36:12.614Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:36:12+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'fmb11ajjg90h3ll0dc'}
+meg
+{u'recipient': {u'id': u'57hfde98hce2mb03mc', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'i1hinkedf7ihc26k6'}, u'timestamp': u'2017-06-03T18:36:12.608Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:36:12+08:00', u'membersAdded': [{u'id': u'57hfde98hce2mb03mc', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'mfjgffkd5dh09n9mc'}
+meg
+{u'recipient': {u'id': u'iie7d3bcfn1dhjj43', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'cce8m2kh5949a7amgc'}, u'timestamp': u'2017-06-03T18:37:28.365Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:37:28+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'n15a0h7l7kef90hh6'}
+meg
+{u'recipient': {u'id': u'iie7d3bcfn1dhjj43', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'cce8m2kh5949a7amgc'}, u'timestamp': u'2017-06-03T18:37:28.358Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:37:28+08:00', u'membersAdded': [{u'id': u'iie7d3bcfn1dhjj43', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'b652n8hgnda257469'}
+meg
+{u'recipient': {u'id': u'1g6928425gbli6n1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9k229041e58h79if4c'}, u'timestamp': u'2017-06-03T18:38:59.936Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:38:59+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'en9dn85ibne62mf77c'}
+meg
+{u'recipient': {u'id': u'1g6928425gbli6n1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9k229041e58h79if4c'}, u'timestamp': u'2017-06-03T18:38:59.930Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:38:59+08:00', u'membersAdded': [{u'id': u'1g6928425gbli6n1c', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'f8j3h4keddag2b3jgc'}
+meg
+{u'recipient': {u'id': u'1g6928425gbli6n1c', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'9k229041e58h79if4c'}, u'locale': u'zh-TW', u'text': u'6+4', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:39:05+08:00', u'id': u'hjb633j60fim1d23i', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T18:39:05.498Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496515139959.13359340224059668.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/9k229041e58h79if4c/activities/hjb633j60fim1d23i
+{u'id': u'1g6928425gbli6n1c', u'name': u'Bot'}
+{"replyToId": "hjb633j60fim1d23i", "from": {"id": "1g6928425gbli6n1c", "name": "Bot"}, "text": "10.0", "conversation": {"id": "9k229041e58h79if4c"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+meg
+{u'recipient': {u'id': u'1l2c0m3i4i1jjh3ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'l76645kiacb0bflmc'}, u'timestamp': u'2017-06-03T18:39:57.441Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:39:57+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'l85lli319mhj1m69'}
+meg
+{u'recipient': {u'id': u'1l2c0m3i4i1jjh3ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'l76645kiacb0bflmc'}, u'timestamp': u'2017-06-03T18:39:57.436Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:39:57+08:00', u'membersAdded': [{u'id': u'1l2c0m3i4i1jjh3ef', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:65364', u'type': u'conversationUpdate', u'id': u'0l6ib6jk58c667fmc'}
+meg
+{u'recipient': {u'id': u'1l2c0m3i4i1jjh3ef', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'l76645kiacb0bflmc'}, u'locale': u'zh-TW', u'text': u'6+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-04T02:40:01+08:00', u'id': u'g2gmd9a5lhj8hefdc', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:65364', u'timestamp': u'2017-06-03T18:40:01.802Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1496515197470.9474037312502663.0'}}
+before text
+after text
+before send
+http://127.0.0.1:65364/v3/conversations/l76645kiacb0bflmc/activities/g2gmd9a5lhj8hefdc
+{u'id': u'1l2c0m3i4i1jjh3ef', u'name': u'Bot'}
+{"replyToId": "g2gmd9a5lhj8hefdc", "from": {"id": "1l2c0m3i4i1jjh3ef", "name": "Bot"}, "text": "9.0", "conversation": {"id": "l76645kiacb0bflmc"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'56f71m5n7a34lenac'}, u'timestamp': u'2017-06-26T15:59:42.265Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-26T23:59:42+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'jk0k72c6091ej1d9i'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'56f71m5n7a34lenac'}, u'timestamp': u'2017-06-26T15:59:42.265Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-26T23:59:42+08:00', u'membersAdded': [{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'imj8n5ji5njlnh53i'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'56f71m5n7a34lenac'}, u'locale': u'zh-TW', u'text': u'1+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-26T23:59:50+08:00', u'id': u'nb90g49f7hdc86gl', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:49186', u'timestamp': u'2017-06-26T15:59:50.267Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1498492782125.4678829169647438.0'}}
+before text
+after text
+before send
+http://127.0.0.1:49186/v3/conversations/56f71m5n7a34lenac/activities/nb90g49f7hdc86gl
+{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}
+{"replyToId": "nb90g49f7hdc86gl", "from": {"id": "5ed8i4l5iee31j71l", "name": "Bot"}, "text": "4.0", "conversation": {"id": "56f71m5n7a34lenac"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'm79kfed47iag54hf'}, u'timestamp': u'2017-06-26T16:12:24.912Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:12:24+08:00', u'membersAdded': [{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'l4jhl9bg6j6edd0l9'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'm79kfed47iag54hf'}, u'timestamp': u'2017-06-26T16:12:24.924Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:12:24+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'5ij7hk66n60g79gmgc'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'm79kfed47iag54hf'}, u'locale': u'zh-TW', u'text': u'1+6', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:12:31+08:00', u'id': u'mma08hi6hf1liih73', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:49186', u'timestamp': u'2017-06-26T16:12:31.338Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1498493544816.059827920336283036.0'}}
+before text
+after text
+before send
+http://127.0.0.1:49186/v3/conversations/m79kfed47iag54hf/activities/mma08hi6hf1liih73
+{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}
+{"replyToId": "mma08hi6hf1liih73", "from": {"id": "5ed8i4l5iee31j71l", "name": "Bot"}, "text": "7.0<b>qqq</b>", "conversation": {"id": "m79kfed47iag54hf"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'fabn9477eag438gjl'}, u'timestamp': u'2017-06-26T16:14:36.199Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:14:36+08:00', u'membersAdded': [{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'lln6ddkn5gfn5nlb6'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'fabn9477eag438gjl'}, u'timestamp': u'2017-06-26T16:14:36.207Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:14:36+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:49186', u'type': u'conversationUpdate', u'id': u'bed1hf99em28j2ndl'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'fabn9477eag438gjl'}, u'locale': u'zh-TW', u'text': u'5+6', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T00:14:42+08:00', u'id': u'4dfmedn83kci615ci', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:49186', u'timestamp': u'2017-06-26T16:14:42.549Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1498493676155.47340446650091006.0'}}
+before text
+after text
+before send
+http://127.0.0.1:49186/v3/conversations/fabn9477eag438gjl/activities/4dfmedn83kci615ci
+{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}
+{"replyToId": "4dfmedn83kci615ci", "from": {"id": "5ed8i4l5iee31j71l", "name": "Bot"}, "attachments": [{"contentUrl": "http://mydeploy.azurewebsites.net/matsu.jpg", "contentType": "image/jpg", "name": "matsu.jpg"}], "text": "11.0", "conversation": {"id": "fabn9477eag438gjl"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'jle450a26fgf05e3i'}, u'timestamp': u'2017-06-26T20:06:15.987Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T04:06:15+08:00', u'membersAdded': [{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}], u'serviceUrl': u'http://127.0.0.1:55668', u'type': u'conversationUpdate', u'id': u'k8h4emf45ncmc33mc'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'jle450a26fgf05e3i'}, u'timestamp': u'2017-06-26T20:06:15.987Z', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T04:06:15+08:00', u'membersAdded': [{u'id': u'default-user', u'name': u'User'}], u'serviceUrl': u'http://127.0.0.1:55668', u'type': u'conversationUpdate', u'id': u'4i2bc2gn46fmfc20mc'}
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'conversation': {u'id': u'jle450a26fgf05e3i'}, u'locale': u'zh-TW', u'text': u'1+3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T04:06:25+08:00', u'id': u'9nf2hck20ni0al2hjc', u'entities': [{u'supportsTts': True, u'supportsListening': True, u'type': u'ClientCapabilities', u'requiresBotState': True}], u'serviceUrl': u'http://127.0.0.1:55668', u'timestamp': u'2017-06-26T20:06:25.406Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1498507576031.7736774795124723.0'}}
+before text
+after text
+before send
+http://127.0.0.1:55668/v3/conversations/jle450a26fgf05e3i/activities/9nf2hck20ni0al2hjc
+{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}
+{"replyToId": "9nf2hck20ni0al2hjc", "from": {"id": "5ed8i4l5iee31j71l", "name": "Bot"}, "attachments": [{"contentUrl": "http://mydeploy.azurewebsites.net/matsu.jpg", "contentType": "image/jpg", "name": "matsu.jpg"}, {"content": {"buttons": [{"type": "imBack", "value": "1", "title": "BLT"}, {"type": "imBack", "value": "2", "title": "Black Forest Ham"}, {"type": "imBack", "value": "3", "title": "Buffalo Chicken"}], "text": "What kind of sandwich would you like on your sandwich? "}, "contentType": "application/vnd.microsoft.card.hero"}], "text": "4.0", "conversation": {"id": "jle450a26fgf05e3i"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1
+meg
+{u'recipient': {u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}, u'from': {u'id': u'default-user', u'name': u'User'}, u'locale': u'zh-TW', u'text': u'3', u'channelId': u'emulator', u'localTimestamp': u'2017-06-27T04:06:32+08:00', u'id': u'973cfmf4b141189c9', u'conversation': {u'id': u'jle450a26fgf05e3i'}, u'serviceUrl': u'http://127.0.0.1:55668', u'timestamp': u'2017-06-26T20:06:32.657Z', u'textFormat': u'plain', u'type': u'message', u'channelData': {u'clientActivityId': u'1498507576031.7736774795124723.2'}}
+before text
+after text
+before send
+http://127.0.0.1:55668/v3/conversations/jle450a26fgf05e3i/activities/973cfmf4b141189c9
+{u'id': u'5ed8i4l5iee31j71l', u'name': u'Bot'}
+{"replyToId": "973cfmf4b141189c9", "from": {"id": "5ed8i4l5iee31j71l", "name": "Bot"}, "attachments": [{"contentUrl": "http://mydeploy.azurewebsites.net/matsu.jpg", "contentType": "image/jpg", "name": "matsu.jpg"}, {"content": {"buttons": [{"type": "imBack", "value": "1", "title": "BLT"}, {"type": "imBack", "value": "2", "title": "Black Forest Ham"}, {"type": "imBack", "value": "3", "title": "Buffalo Chicken"}], "text": "What kind of sandwich would you like on your sandwich? "}, "contentType": "application/vnd.microsoft.card.hero"}], "text": "Wrong format. format:\"a+b\". a and b are two numbers!!", "conversation": {"id": "jle450a26fgf05e3i"}, "type": "message", "recipient": {"id": "default-user", "name": "User"}}after send0
+after send
+<Response [200]>
+after send1

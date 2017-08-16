@@ -1,0 +1,87 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+
+<h1>&#32654;&#39135;&#34903;&#24231;&#20301;&#20351;&#29992;&#29694;&#27841;</h1>
+<p></p>
+<form action="/seat/" method="get">
+<label for="people">&#24231;&#20301;&#21332;&#23563;&#65292;&#35531;&#36664;&#20837;&#20154;&#25976;</label>
+<select name="people" size="1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+</select>
+<input type="submit">{% if if_find %}&#30446;&#21069;&#39023;&#31034;&#20154;&#25976;&#28858;:{{find_num}}{% if if_not_found %}(&#25214;&#19981;&#21040;&#36899;&#32396;&#24231;&#20301;){% endif %}{% endif %}
+</form>
+<p><br></p>
+{% if if_login %}
+<p><b>&#12288;&#12288;&#12288;&#40670;&#25802;&#32160;&#33394;&#24231;&#20301;&#20197;&#38928;&#32004;</b></p>
+<p><b>&#12288;&#12288;&#12288;&#40670;&#25802;&#31881;&#33394;&#24231;&#20301;&#20197;&#35299;&#37782;</b></p>
+<h3><b>&#21097;&#39192;&#40670;&#25976;:{{point}}</b></h3>
+{% if ifnot_point %}<h2><b>&#40670;&#25976;&#19981;&#36275;&#65292;&#28961;&#27861;&#38928;&#32004;</b></h2>{% endif %}
+{% else %}
+<h3><b>&#30331;&#20837;&#24460;&#26041;&#21487;&#38928;&#32004;</b></h3>
+
+{% endif %}
+
+
+<img src="/media/map.png" style="position: absolute; top: {{top_offset}}px; left: {{left_offset}}px; z-index: 0; width: {{w}}px; height: {{h}}px;">
+
+{% for f in find_list %}
+<img src="/media/find.png" style="position: absolute; top: {{f.0}}px; left: {{f.1}}px; z-index: 2; width: {{f.2}}px; height: {{f.2}}px;">
+{% endfor %}
+
+{% for light in seat_list %}
+<img src="/media/{{light.0}}_light.png" style="position: absolute; top: {{light.1}}px; left: {{light.2}}px; z-index: 2; width: {{light.3}}px; height: {{light.3}}px;">
+{% endfor %}
+
+
+
+<img src="/media/map_num.png" style="position: absolute; top: {{top_offset}}px; left: {{left_offset}}px; z-index: 2; width: {{w}}px; height: {{h}}px;">
+
+{% for light in seat_list %}
+{% if light.4 %} {% if if_point %} <a href="/{{users}}/seatreserve/{{light.5}}"> {% endif %}{% endif %}
+{% if light.6 %} <a href="/{{users}}/seatunlock/{{light.5}}"> {% endif %}
+<img src="/media/blank.png" style="position: absolute; top: {{light.1}}px; left: {{light.2}}px; z-index: 2; width: {{light.3}}px; height: {{light.3}}px;">
+{% if light.6 %} </a> {% endif %}
+{% if light.4 %} {% if if_point %}</a> {% endif %}{% endif %}
+{% endfor %}
+
+
+<p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</p>
+
+
+{% endblock %}

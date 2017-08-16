@@ -1,0 +1,32 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+<div style="text-align: center;">
+
+<h1>&#38928;&#32004;&#39184;&#24307;: {{restaurant_name}}</h1>
+
+{% if if_rehearsal %}
+<h3>&#38928;&#32004;&#26410;&#21040;&#27425;&#25976;&#24050;&#36948;3&#27425;&#65292;&#28961;&#27861;&#38928;&#32004;</h3>
+{% elif point_error %}
+<h3>&#40670;&#25976;&#19981;&#36275;</h3>
+{% else %}
+&#35531;&#36984;&#25799;&#38928;&#32004;&#20154;&#25976;:
+<form action="{{url}}" method="get">
+<select name="reserve_people">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option selected>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+<input type="submit">
+</form>
+</div>
+
+{% endif %}
+{% endblock %}

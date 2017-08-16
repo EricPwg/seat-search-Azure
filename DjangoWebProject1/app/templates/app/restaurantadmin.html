@@ -1,0 +1,73 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+<div style="text-align: center;">
+<h1>&#31649;&#29702;&#39184;&#24307;:{{restaurant_name}}</h1>
+<h3>&#31561;&#20505;&#32068;&#25976;: {{waiting_people}} &#12288;&#30446;&#21069;&#21483;&#34399;: {{current_call}} <a href="/{{adminuser}}/restaurantcall/{{restaurant_id}}", class="btn btn-primary btn-large">&#21483;&#34399; &raquo;</a></h3>
+<h4>&#29694;&#22580;&#38928;&#32004;(&#36984;&#25799;&#20154;&#25976;)</h4>
+<form action="/{{adminuser}}/restaurantsitereserve/{{restaurant_id}}/" method="get">
+<label for="reserve_people"></label>
+<select name="reserve_people" size="10">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option selected>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+</select>
+<input type="submit">
+</form>
+</div>
+
+<table style="text-align: left; width: 400px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2" class="table">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#34399;&#30908;&#29260;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">--</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#21508;&#32068;&#38928;&#32004;&#20154;&#25976;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#21205;&#20316;</td>
+    </tr>
+
+{% for r in reservedatalist %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{ r.number }}</td>
+ {% if r.if_online_reserve %}
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#32178;&#36335;&#38928;&#32004;</td>
+  {% else %}
+     <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#29694;&#22580;&#38928;&#32004;</td>
+ {% endif %}
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{ r.reserve_people }}</td>
+
+{% if r.called %}
+    {% if r.if_online_reserve  %}
+        <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">
+            <a href="/{{r.id}}/restaurantcancel/{{restaurant_id}}", class="btn btn-primary btn-large"> &#24050;&#21040;&raquo;</a>
+            <a href="/{{r.id}}/restaurantrehearsal/{{restaurant_id}}", class="btn btn-primary btn-large"> &#36926;&#26178;&raquo;</a>
+        </td>
+    {% else %}
+        <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">
+            <a href="/{{adminuser}}/restaurantsitecancel/{{restaurant_id}}/{{r.number}}", class="btn btn-primary btn-large"> &#24050;&#21040;&raquo;</a>
+            <a href="/{{adminuser}}/restaurantsitecancel/{{restaurant_id}}/{{r.number}}", class="btn btn-primary btn-large"> &#36926;&#26178;&raquo;</a>
+        </td>
+    {% endif %}
+{% else %}
+    {% if r.if_online_reserve  %}
+        <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">--</td>
+    {% else %}
+        <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">
+            <a href="/{{adminuser}}/restaurantsitecancel/{{restaurant_id}}/{{r.number}}", class="btn btn-primary btn-large"> &#21462;&#28040;&raquo;</a>
+        </td>
+    {% endif %}
+{% endif %}
+
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

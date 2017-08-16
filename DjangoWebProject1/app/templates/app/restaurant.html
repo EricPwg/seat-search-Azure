@@ -1,0 +1,48 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div style="text-align: center;">
+<p> </p>
+<h1 style="color: rgb(213, 91, 62);"><span style="font-family: monospace;">&#39184;&#24307;&#21015;&#34920;</span></h1>
+</div>
+
+{% for restaurant in floor_list %}
+<div style="text-align: center;"><h3 style="color: rgb(213, 91, 62);">{{restaurant.0}}</h3></div>
+<table style="text-align: left; width: 600px; background-color: transparent; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#24215;&#21517;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#31561;&#20505;&#32068;&#25976;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#30446;&#21069;&#21483;&#34399;</td>
+{% if if_login %} <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#25105;&#30340;&#34399;&#30908;</td>{% endif %}
+{% if if_login %} <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#38928;&#32004;/&#21462;&#28040;</td>
+{% else %}          <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#38928;&#32004;</td>{% endif %}
+
+    </tr>
+{% for r in restaurant.1 %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);"><a href="{{r.rurl}}" target="_blank">{{r.name}}</a></td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.waiting_people}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.current_call}}</td>
+{% if if_login %} <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.number}}</td>{% endif %}
+{% if if_login %}
+{% if r.if_cannotreserve %} <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#26412;&#39184;&#24307;&#28961;&#27861;&#38928;&#32004;</td>
+{% elif r.if_reserved %} 
+  {% if r.if_cancelable %}
+    <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);"><a href="{{r.url}}", class="btn btn-primary btn-large">&#21462;&#28040; &raquo;</a></td>
+  {% else %}
+    <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#20197;&#21483;&#34399;&#65292;&#35531;&#30433;&#36895;&#21069;&#24448;</td>
+  {% endif %}
+{% else %}                   <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);"><a href="{{r.url}}", class="btn btn-primary btn-large">&#38928;&#32004;</a></td>{% endif %}
+{% else %}
+<td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#35531;&#20808;&#30331;&#20837;</td>
+{% endif %}
+
+    </tr>
+{% endfor %}
+      </tbody>
+</table>
+{% endfor %}
+
+{% endblock %}

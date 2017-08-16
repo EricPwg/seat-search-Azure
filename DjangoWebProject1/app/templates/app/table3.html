@@ -1,0 +1,75 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=UTC" http-equiv="content-type">
+  <title>table</title>
+
+  
+</head><body style="background-color: rgb(252, 244, 217);">
+<span style="font-family: monospace;"><br>
+</span>
+<p><a href='/seat'>seat</a></p>
+<div style="text-align: center;">
+<h1 style="color: rgb(213, 91, 62);"><span style="font-family: monospace;">&#31561;&#20505;&#20154;&#25976;</span></h1>
+<h3 style="color: rgb(213, 91, 62);">seat</h3>
+<span style="font-family: monospace;"></span></div>
+
+<table style="text-align: left; width: 600px; background-color: transparent; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">name<br>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">waiting
+people<br>
+      </td>
+    </tr>
+{% for r in restaurant %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.name}}<br>
+      </td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{r.waiting_people}}<br>
+      </td>
+    </tr>
+{% endfor %}
+      </tbody>
+</table>
+
+<br>
+
+<div style="text-align: center;">
+<h3 style="color: rgb(213, 91, 62);">10F</h3>
+<br>
+<table style="text-align: left; width: 600px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">name</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">waiting
+people</td>
+      <td style="vertical-align: top; width: 50px; text-align: center; background-color: rgb(0, 170, 160);">booked<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#39184;&#24307;A</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">7<br>
+      </td>
+      <td style="vertical-align: top; background-color: rgb(142, 210, 201); text-align: center;"><img style="width: 31px; height: 26px;" alt="" src="/media/book.png"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">&#39184;&#24307;B</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">5789<br>
+      </td>
+      <td style="vertical-align: top; background-color: rgb(142, 210, 201); text-align: center;"><img style="width: 31px; height: 26px;" alt="" src="/media/book.png"> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+
+<br>
+
+<br>
+
+</body></html>

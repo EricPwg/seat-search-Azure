@@ -1,0 +1,28 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="container">
+<div class="menus">
+<div style="text-align: center;"><h3 style="color: rgb(213, 91, 62);">&#32654;&#39135;&#34903;&#21015;&#34920;</h3></div>
+<table style="text-align: left; width: 600px; background-color: transparent; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#24215;&#21517;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#31561;&#20505;&#32068;&#25976;</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(0, 170, 160);">&#30446;&#21069;&#21483;&#34399;</td>
+    </tr>
+
+{% for s in stall_list %}
+    <tr>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.name}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.waiting_people}}</td>
+      <td style="vertical-align: top; text-align: center; background-color: rgb(142, 210, 201);">{{s.current_call}}</td>
+    </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+</div>
+
+{% endblock %}
